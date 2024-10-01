@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "poppins-regular";
+  src: url("../assets/font/Poppins-Regular.ttf");
+}
+
+.blackbox {
+  position: relative;
+  padding: 20px;
+  background-color: black;
+  padding-bottom: 80px;
+  text-align: left;
+  width: 65%;
+  height: 400px;
+  margin-top: 100px;
+  color: white;
+}
+
+.content {
+  max-width: 400px;
+  margin-left: 70px;
+  margin-top: 80px;
+}
+
+.content h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.celular {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  width: 50%;
+}
+
+.productseries {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  max-width: 300px;
+  margin: 0;
+}
+
+.productseries img {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.shopnow {
+  margin-top: 40px;
+  font-family: poppins-regular;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.shopnow p {
+  margin: 0;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.shopnow img {
+  margin: 0;
+  margin-left: 12px;
+}
+
+.bolinhas {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

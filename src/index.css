@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "poppins-regular";
+  src: url("../assets/font/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: poppins-regular;
+}
+
+.conjuntoBeneficios {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.categoryGroup {
+  display: flex;
+  justify-content: space-around;
+}

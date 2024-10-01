@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+}
+
+.beneficio {
+  display: flex;
+  flex-direction: column;
+}
+
+.textos {
+  margin-top: 20px;
+  text-align: center;
+}

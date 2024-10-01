@@ -1,0 +1,40 @@
+.promotion {
+  display: flex;
+  height: 48px;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotionLink {
+  color: white;
+}
+
+.promotionLink:visited {
+  color: white;
+}
+
+.promotionLink:hover {
+  color: red;
+}
+
+.promotionLink:active {
+  color: yellow;
+}
+
+.dropdown {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.option {
+  color: white;
+  background-color: black;
+}

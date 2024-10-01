@@ -1,0 +1,31 @@
+.labelsubtitle {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.categorycontainer {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.categorycontainer h1 {
+  margin: 0;
+}
+
+.labelsubtitle p {
+  font-size: 14px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.icon {
+  background-color: #e74c3c;
+  width: 20px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
